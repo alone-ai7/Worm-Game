@@ -1,24 +1,27 @@
-# Wormy Game 🐍
+# 🐍 Wormy Game
 
-This repository contains an implementation of **Wormy**, a classic arcade clone of the retro game *Nibbles* (commonly known as *Snake*). 
+This repository contains an implementation of **Wormy**, a classic arcade clone of the retro game *Nibbles* (commonly known as *Snake*).
+
+---
 
 ## 📚 Attributions & Credits
-The code and assets in this repository are based entirely on Chapter 6 of the book **"Making Games with Python & Pygame"** written by **Al Sweigart (Albert Sweigart)**. 
+
+The code and assets in this repository are based entirely on Chapter 6 of the book **"Making Games with Python & Pygame"** written by **Al Sweigart (Albert Sweigart)**.
 
 * **Author Website:** [https://inventwithpython.com](https://inventwithpython.com)
 * **Original Chapter Walkthrough:** [Wormy Game Chapter Guide](https://inventwithpython.com)
-* **Original Source Code Reference:** [Official wormy.py Source](http://invpy.com)
+* **Original Source Code Reference:** [Official wormy.py Source](https://inventwithpython.com)
 
 ---
 
 ## 🎮 How to Play
 
-### Controls
+### 🕹️ Controls
 You can use either of the following control schemes to steer the worm:
 * **Arrow Keys:** `Up`, `Down`, `Left`, `Right`
 * **WASD Keys:** `W` (Up), `A` (Left), `S` (Down), `D` (Right)
 
-### Rules
+### 📜 Rules
 * **Objective:** Eat as many red apples as possible to increase your length and score.
 * **Game Over:** You lose if the worm hits the edge of the screen or crashes into its own tail.
 * **Anti-Suicide System:** The game automatically ignores invalid reversed steering inputs (e.g., hitting `Left` while moving `Right` will not cause an instant self-collision).
@@ -36,7 +39,7 @@ You can use either of the following control schemes to steer the worm:
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### 📋 Prerequisites
 To run the source code directly, you need **Python 3.x** and **Pygame** installed on your system.
 
 1. **Install Pygame:**
@@ -62,12 +65,17 @@ If you don't have Python or Pygame installed, you can download a standalone Wind
 ---
 
 ## ⚖️ License
-The source code provided by Al Sweigart for this project is distributed under a **Simplified BSD License**:
 
-Copyright (c) Al Sweigart. All rights reserved.
+The code and assets in this repository are based on the work of Al Sweigart from "Making Games with Python & Pygame". In accordance with the book's original licensing, this project is distributed under the **Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License (CC BY-NC-SA 3.0 US)**.
 
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+### Under this license, you are free to:
+* **Share** — To copy, distribute, display, and perform the work.
+* **Remix** — To make derivative works.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+### Under the following conditions:
+* **Attribution** — You must attribute the work in the manner specified by the author or licensor (visibly include the title and author's name in any excerpts of this work).
+* **Noncommercial** — You may not use this work for commercial purposes.
+* **Share Alike** — If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+
+Copyright (c) 2012 by Albert Sweigart. Some Rights Reserved.  
+For the full legal code, visit the official [Creative Commons License Page](http://creativecommons.org).
