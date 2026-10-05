@@ -30,7 +30,7 @@ You can use either of the following control schemes to steer the worm:
 * **Resolution:** 640 × 480 pixels
 * **Cell Grid Size:** 20 × 20 pixels square
 * **Grid Matrix:** 32 cells wide by 24 cells high
-* **Frame Rate:** Locked at 15 FPS to preserve an authentic, retro-style gameplay speed.
+* **Frame Rate:** Locked at 30 FPS to preserve an authentic, retro-style gameplay speed.
 
 ---
 
